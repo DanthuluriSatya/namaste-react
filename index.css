@@ -6,7 +6,11 @@
     border:1px solid black
 }
 .logo{
-    width:100px;
+    width: 100px;        /* Set the desired width */
+    height: 100px;       /* Set the desired height */
+    object-fit: contain; /* Ensure the image fits within the given dimensions */
+    border-radius: 8px;  /* Optional: Add rounded corners */
+    margin: 10px;      
 }
 .nav-items> ul{
     font-size:16px;
@@ -26,8 +30,7 @@
 }
 .res-card{
     padding:5px;
-    width:200px;
-    height:300px;
+    width:250px;
 }
 .res-card:hover{
     cursor:pointer;
@@ -38,5 +41,8 @@
     padding:10px
 }
 .res-logo{
-    width:100%;
+    width: 150px;      /* Set the desired width */
+    height: 150px;     /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the area without distorting */
+    border-radius: 8px; /* Optional: Add rounded corners */
 }

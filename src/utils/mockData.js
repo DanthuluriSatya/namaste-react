@@ -1,4 +1,4 @@
- [
+const resList= [
     {
       "info": {
         "id": "316782",
@@ -322,7 +322,7 @@
     {
       "info": {
         "id": "3622",
-        "name": "Madhapur Bawarchi Restaurant",
+        "name": "Bawarchi Restaurant",
         "cloudinaryImageId": "35676313896c39c25537ec9464502d16",
         "locality": "Madhapur",
         "areaName": "Madhapur",
@@ -846,4 +846,6 @@
       },
       "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
     }
-  ]
+  ];
+
+  export default resList;
