@@ -11,6 +11,7 @@ const RestaurantCard=({resData})=>{
       <h3>{resData.name}</h3>
         <h4>{resData.avgRating}</h4>
         <h4>{resData.costForTwo}</h4>
+        <h4>{resData.areaName}</h4>
       </div>
    );
   }

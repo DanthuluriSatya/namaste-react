@@ -45,3 +45,8 @@ import Component from "path";
 
 export cont component;
 import {Component} from "path";
+
+#React Hooks
+(Normal JS utility function)
+-useState()
+-useEffect()

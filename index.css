@@ -26,7 +26,7 @@
 .res-container{
     margin:5px;
     display:flex;
-    flex-wraop:wrap;
+    flex-wrap:wrap;
 }
 .res-card{
     padding:5px;
@@ -46,3 +46,97 @@
     object-fit: cover; /* Ensure the image covers the area without distorting */
     border-radius: 8px; /* Optional: Add rounded corners */
 }
+.shimmer-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    margin:20px;
+    width:200px;
+    height:400px;
+    background-color: #f0f0f0;
+}
+
+.login{
+    padding: 0 20px;
+    cursor:pointer;
+}
+.filter{
+    display:flex;
+}
+
+.filter-btn{
+    margin:10px;
+    height: 20px;   
+}
+
+.banner-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 16px; /* Adjust spacing between items */
+    padding: 10px; /* Optional: padding around the container */
+    scroll-behavior: smooth; /* Optional: smooth scrolling */
+    
+    /* Hide scrollbar */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .banner-container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  
+  .banner-item {
+    flex: 0 0 auto; /* Prevent items from shrinking or growing */
+    text-align: center;
+  }
+  
+  .banner-item img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .banner-item p {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+
+ 
+
+
+
+
+
+  
+  .topratedres-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 16px; /* Adjust spacing between items */
+    padding: 10px; /* Optional: padding around the container */
+    scroll-behavior: smooth; /* Optional: smooth scrolling */
+    
+    /* Hide scrollbar */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .topratedres-container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  
+  .topratedres-container {
+    flex: 0 0 auto; /* Prevent items from shrinking or growing */
+    text-align: center;
+  }
+  
+  .topratedres-container {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .topratedres-container p {
+    margin-top: 8px;
+    font-size: 16px;
+  }
